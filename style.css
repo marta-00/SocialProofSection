@@ -1,0 +1,27 @@
+:root {
+    --DarkMagenta: hsl(300, 43%, 22%);  
+    --SoftPink: hsl(333, 80%, 67%);
+    --GrayMagenta: hsl(303, 10%, 53%);
+    --LightGrayMagenta: hsl(300, 24%, 96%);
+}
+
+.rating {
+    background-color: var(--LightGrayMagenta);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.review {
+   background-color: var(--DarkMagenta);
+   border-radius: 10px;
+   padding: 2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
