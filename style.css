@@ -6,11 +6,16 @@
 }
 body {
     font-family: 'League Spartan', sans-serif;
+    padding: 70px 90px;
+    background: url('/images/bg-pattern-top-desktop.svg') left top no-repeat, url('/images/bg-pattern-bottom-desktop.svg') right bottom no-repeat;
+    background-size: 800px, 800px;
+    max-height: 90vh;
 }
 
 header h1 {
     color: var(--DarkMagenta);
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 4rem;
 }
 
 .rating {
@@ -44,14 +49,40 @@ header h1 {
 .review {
    background-color: var(--DarkMagenta);
    border-radius: 10px;
-   padding: 2rem;
+   padding: 1rem 2.2rem;
+   color: white;
+   font-size: 19px;
+}
+
+.user img {
+    border-radius: 50%;
+    margin-right: 1rem;
+    height: 50px;
+    position: absolute;
+}
+
+.user p {
+    color: var(--SoftPink);
+    position: relative;
+    top: 10px;
+    left: 80px;
+    line-height: 0.25;
+}
+
+.name {
+    color: white !important;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 50px;
+    padding: 0;
+    line-height: 1.5;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
   }
 
 .attribution a {
