@@ -32,14 +32,41 @@
         width: 100%;
     }
 
-    .stars {
-        background: url('images/icon-star.svg') repeat-x center absolute;
-        width: 85px !important;
+    body {
+        padding: 10px;
+        
+    }
+
+    header h1 {
+        line-height: 0.8;
+        text-align: center;
+    }
+
+
+    header p {
+        line-height: 1.2;
+        text-align: center;
+    }
+    aside {
+        margin-top: 0;
+    }
+    .rating {
+        padding: 2rem;
+        margin: 10px 0;
     }
     
-
     .rating p {
-        left: 27vw;
-        bottom: 0;
+        display: block;
+        bottom: -10px;
+        text-align: center;
+        font-size: large;
+    }
+    
+    .first {
+        margin-left: 130px;
+    }
+
+    .row::after, br, p.col-1, p.col-2, p.col-3, p.col-4, p.col-5, p.col-6, p.col-7, p.col-8, p.col-9, p.col-10, p.col-11, p.col-12 {
+        display: none;
     }
 }
