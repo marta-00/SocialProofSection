@@ -30,4 +30,15 @@
     [class*="col-"] {
         width: 100%;
     }
+
+    .stars {
+        background: url('images/icon-star.svg') repeat-x center absolute;
+        width: 85px !important;
+    }
+    
+
+    .rating p {
+        left: 27vw;
+        bottom: 0;
+    }
 }
