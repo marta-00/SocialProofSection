@@ -7,7 +7,7 @@
 body {
     font-family: 'League Spartan', sans-serif;
     padding: 70px;
-    background: url('/images/bg-pattern-top-desktop.svg') left top no-repeat, url('/images/bg-pattern-bottom-desktop.svg') right bottom no-repeat;
+    background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, url(./images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
     background-size: 600px, 1200px;
     max-height: 90vh;
 }
