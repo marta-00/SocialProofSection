@@ -34,8 +34,8 @@
 
     body {
         padding: 10px;
-        background: url('/images/bg-pattern-top-mobile.svg') left top no-repeat, 
-            url('/images/bg-pattern-bottom-desktop.svg') right bottom no repeat;
+        background: url('./images/bg-pattern-top-mobile.svg') left top no-repeat, 
+            url('./images/bg-pattern-bottom-desktop.svg') right bottom no-repeat;
     }
 
     header h1 {
