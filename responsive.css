@@ -34,7 +34,8 @@
 
     body {
         padding: 10px;
-        
+        background: url('/images/bg-pattern-top-mobile.svg') left top no-repeat, 
+            url('/images/bg-pattern-bottom-desktop.svg') right bottom no repeat;
     }
 
     header h1 {
@@ -63,7 +64,7 @@
     }
     
     .first {
-        margin-left: 130px;
+        margin-left: 110px;
     }
 
     .row::after, br, p.col-1, p.col-2, p.col-3, p.col-4, p.col-5, p.col-6, p.col-7, p.col-8, p.col-9, p.col-10, p.col-11, p.col-12 {
